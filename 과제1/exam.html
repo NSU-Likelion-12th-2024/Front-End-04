@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form action="">
+      <label for="Name">First name</label>
+      <input type="text" name="ft" placeholder="First name" id="Name" /><br />
+
+      <label for="Last">Last name</label>
+      <input type="text" name="ft" placeholder="Last name" id="Last" /><br />
+
+      <label for="email">Email</label>
+      <input type="text" name="ft" placeholder="Email" id="email" /><br />
+
+      <label for="user">Username</label>
+      <input type="text" name="ft" placeholder="Username" id="user" /><br />
+
+      <label for="pass">Password</label>
+      <input
+        type="password"
+        name="ft"
+        placeholder="Password"
+        minlength="10"
+        pattern="^(?=.*[$@$!%*#?&])"
+        title="10자리 이상 혹은 특수부호 하나를 필수로 포함시키세요"
+        id="pass"
+      /><br />
+
+      <label for="date">Birth date</label>
+      <input type="date" name="ft" id="date" /><br />
+
+      <label for="happy">How happy are you?</label>
+      <input type="range" name="ft" id="happy" /><br />
+
+      <label for="What">What is your fav.color?</label>
+      <input type="color" name="ft" id="What" /><br />
+
+      <button>create Account</button>
+    </form>
+  </body>
+</html>
