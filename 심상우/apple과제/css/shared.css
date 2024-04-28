@@ -1,0 +1,24 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+#container {
+  background-color: black;
+  padding: 20px;
+}
+
+header ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: white;
+  margin: auto;
+  align-items: center;
+}
+
+header ul li:hover {
+  font-size: larger;
+}

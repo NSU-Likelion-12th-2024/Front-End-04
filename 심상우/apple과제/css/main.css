@@ -1,0 +1,47 @@
+main {
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: #fbfbfd;
+}
+
+span {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.link-change {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(71, 71, 255);
+}
+
+section p {
+  color: #a8a8ab;
+}
+
+section h1 {
+  font-size: 30px;
+}
+
+footer {
+  background-color: black;
+  height: 60px;
+}
+footer a {
+  color: white;
+  align-items: center;
+}
+footer div {
+  width: 100%;
+  margin: auto;
+}
