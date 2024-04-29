@@ -27,12 +27,20 @@ ul li a {
 
 .full-name {
   display: flex;
-  width: 190px;
   height: 54px;
   margin: auto;
   justify-content: center;
 }
 
+#first-name {
+  box-sizing: border-box;
+  width: 200px;
+  margin-right: 10px;
+}
+
+#last-name {
+  width: 200px;
+}
 #tell {
   width: 414px;
   height: 54px;
@@ -65,4 +73,9 @@ form button {
 
 form button:hover {
   font-size: large;
+}
+
+#form-one {
+  display: grid;
+  gap: 10px;
 }
