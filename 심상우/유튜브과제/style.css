@@ -1,0 +1,46 @@
+main section div video {
+  width: 853px;
+  height: 480px;
+}
+
+#section-one {
+  display: flex;
+}
+
+#videosss {
+  width: 100%;
+  height: auto;
+}
+
+#style-video {
+  margin-left: 24px;
+  padding: 24px 24px 0 0;
+}
+
+#style-video video {
+  border-radius: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+#videosss li {
+  display: flex;
+}
+#videosss ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+
+main section #videosss img {
+  width: 168px;
+  height: 94px;
+  border-radius: 5px;
+}
+
+#flex-one {
+  display: flex;
+  justify-content: space-around;
+}
