@@ -37,7 +37,7 @@
         if (main.classList.contains("waiting")) {
           main.classList.remove("waiting");
           main.classList.add("ready");
-          main.textContent = "빨간색이 되면 누르세요!";
+          main.textContent = "빨간색이 되면 재빨리 누르세요!";
           timeout = setTimeout(function () {
             starttime = new Date();
             main.classList.remove("ready");
@@ -48,7 +48,7 @@
           clearTimeout(timeout);
           main.classList.remove("ready");
           main.classList.add("waiting");
-          main.textContent = "너무 빨라요";
+          main.textContent = "미리 누르지 마세요 너무 빨라요";
         } else if (main.classList.contains("now")) {
           endTime = new Date();
           const current = endTime - starttime;

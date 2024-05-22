@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box1 {
+        border: 3px solid black;
+        width: 100px;
+        height: 80px;
+        margin: 30px 20px 20px 30px;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+      .round {
+        width: 40px;
+        height: 40px;
+        border: 1px solid blueviolet;
+        border-radius: 50px;
+        background-color: blueviolet;
+        margin: auto;
+      }
+      .box2 {
+        border: 20px solid black;
+        width: 100px;
+        height: 80px;
+        margin: 30px 30px 30px 10px;
+        border-top-right-radius: 50px;
+      }
+      .box3 {
+        border: 3px solid black;
+        width: 100px;
+        height: 100px;
+        margin: 0 30px 30px 30px;
+        border-radius: 0px 0px 10px 10px;
+        font-size: 10px;
+      }
+      .box4 {
+        border-bottom: 3px solid black;
+        border-right: 3px solid black;
+        border-top: 10px solid blue;
+        border-left: 20px solid blue;
+        width: 100px;
+        height: 80px;
+        border-bottom-right-radius: 10px;
+        padding: 5px 10px 15px 20px;
+        background-color: lightyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex">
+      <div class="box1">
+        <div class="round"></div>
+      </div>
+      <div class="box2">
+        <div style="width: 100px; height: 100px">Hi?</div>
+      </div>
+    </div>
+    <div style="display: flex">
+      <div class="box3">
+        이름: 양병현<br />
+        학과: 컴퓨터소프트웨어 <br />
+        학번: 20100971
+      </div>
+      <div class="box4">
+        <div class="Hi">안녕?</div>
+      </div>
+    </div>
+  </body>
+</html>

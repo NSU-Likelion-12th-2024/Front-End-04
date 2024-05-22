@@ -1,0 +1,39 @@
+#search {
+  width: 500px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.big_box {
+  display: flex;
+}
+
+video {
+  width: 700px;
+  height: 500px;
+  display: block;
+}
+
+.title {
+  font-size: 23px;
+  font-weight: bold;
+  display: block;
+}
+
+.banzi_name {
+  font-size: 20px;
+}
+
+.people {
+  font-size: 10px;
+  color: gray;
+}
+
+.right_box {
+  display: flex;
+}
+
+.right_box_photo_size {
+  width: 200px;
+  height: 100px;
+}

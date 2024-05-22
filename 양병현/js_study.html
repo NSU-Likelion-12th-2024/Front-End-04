@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/9068978f09.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #form_pass {
+        width: 400px;
+        height: 30px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+
+      .eyeeicon {
+        position: absolute;
+        right: 15px;
+      }
+
+      #form_pass_word {
+        border: none;
+      }
+      #form_pass_word:focus {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="form_pass">
+      <i class="fa-solid fa-lock"></i>
+      <input
+        type="password"
+        id="form_pass_word"
+        placeholder="비밀번호를 입력해주세요"
+      />
+      <i class="fa-solid fa-eye eyeeicon"></i>
+      <i class="fa-solid fa-eye-slash"></i>
+    </div>
+    <ul id="form_ul"></ul>
+  </body>
+  <script>
+    const inputPass = document.querySelector("#form_pass_word");
+    const passIcon = document.querySelector(".fa-lock");
+    const eyeeicon = document.querySelector(".eyeeicon");
+    const passborder = document.querySelector("#form_pass_word");
+    function PWD_CHECK(event) {}
+    inputPass.addEventListener("blur", PWD_CHECK);
+  </script>
+</html>
