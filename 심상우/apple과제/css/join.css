@@ -1,0 +1,81 @@
+#menu-bar {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #a8a8ab;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #a8a8ab;
+}
+
+#bottom {
+  display: flex;
+
+  justify-content: space-around;
+  margin: auto 0 10px 0;
+}
+
+.full-name {
+  display: flex;
+  height: 54px;
+  margin: auto;
+  justify-content: center;
+}
+
+#first-name {
+  box-sizing: border-box;
+  width: 200px;
+  margin-right: 10px;
+}
+
+#last-name {
+  width: 200px;
+}
+#tell {
+  width: 414px;
+  height: 54px;
+}
+
+#date {
+  width: 414px;
+  height: 54px;
+}
+
+#email {
+  width: 414px;
+  height: 54px;
+  margin: auto;
+}
+
+#password {
+  width: 414px;
+  height: 54px;
+}
+
+form button {
+  padding: 5px;
+  margin: 20px auto;
+  border-radius: 20px;
+  border-color: white;
+  color: white;
+  background-color: #0077ed;
+}
+
+form button:hover {
+  font-size: large;
+}
+
+#form-one {
+  display: grid;
+  gap: 10px;
+}

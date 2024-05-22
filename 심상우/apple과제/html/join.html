@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/shared.css" />
+    <link rel="stylesheet" href="../css/join.css" />
+    <title>Apple ID 생성</title>
+  </head>
+  <body>
+    <header id="container">
+      <ul>
+        <li>
+          <img src="../보조자료/apple-logo-black-white-.jpg" alt="apple-logo" />
+        </li>
+        <li>스토어</li>
+        <li>Mac</li>
+        <li>iPad</li>
+        <li>iPhone</li>
+        <li>Watch</li>
+        <li>AirPods</li>
+        <li>악세서리</li>
+        <li>고객지원</li>
+        <li>돋보기로고</li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <div id="menu-bar">
+          <h1>Apple ID</h1>
+          <ul id="bottom">
+            <li><a href="">로그인</a></li>
+            <li><a href="">Apple ID 생성</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h1>Apple ID 생성</h1>
+          <p>하나의 Apple ID로 모든 Apple서비스를 이용할 수 있습니다.</p>
+        </div>
+      </section>
+      <form action="" id="form-one">
+        <span class="full-name">
+          <label for="first-name"></label>
+          <input type="text" placeholder="성" id="first-name" />
+          <label for="last-name"></label>
+          <input type="text" placeholder="이름" id="last-name" />
+        </span>
+        <div>
+          <select name="" id="tell">
+            <option value="대한민국+82">대한민국+82</option>
+            <option value="미국+02">미국+02</option>
+          </select>
+        </div>
+        <div>
+          <label for="tell"></label>
+          <input type="tel" placeholder="전화번호" id="tell" />
+        </div>
+
+        <div>
+          <label for="date"></label>
+          <input type="date" id="date" />
+        </div>
+
+        <div>
+          <label for="email"></label>
+          <input type="email" placeholder="name@exaple.com" id="email" />
+        </div>
+
+        <div>
+          <label for="password"></label>
+          <input
+            type="password"
+            id="password"
+            pattern="^(?=.*[$@$!%*#?&]).{10,}$"
+            title="10자리 이상 혹은 특수부호 하나를 필수로 포함시키세요"
+            placeholder="암호"
+            minlength="10"
+          />
+        </div>
+
+        <div>
+          <p>번호확인방법</p>
+          <input type="radio" name="survey" id="surv" />
+          <label for="surv">문자메시지</label>
+
+          <input type="radio" name="survey" id="surve" />
+          <label for="surve">음성메시지</label>
+        </div>
+        <div>
+          <input type="checkbox" id="ad" />
+          <label for="ad">광고수신동의</label>
+        </div>
+        <div>
+          <input type="checkbox" id="per" />
+          <label for="per">개인정보수집동의</label>
+        </div>
+        <div><button>가입하기</button></div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

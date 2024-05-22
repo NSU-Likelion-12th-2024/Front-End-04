@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  padding: 0 16px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+#first-menubar {
+  display: flex;
+}
+
+#second-serchmenubar {
+  display: flex;
+}
+
+#third-menubar {
+  display: flex;
+}
+
+main {
+  padding: 0 16px;
+  position: static;
+  margin-top: 80px;
+}
