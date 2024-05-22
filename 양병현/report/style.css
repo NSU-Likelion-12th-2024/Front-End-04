@@ -1,0 +1,90 @@
+.appleback {
+  background-color: black;
+  color: black;
+}
+.fa-brands {
+  color: white;
+  background-color: black;
+}
+.bar_box {
+  background-color: black;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.bar_box a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.bar:hover {
+  font-size: 25px;
+}
+
+.img_box {
+  display: flex;
+  justify-content: center;
+  background-color: #fbfbfd;
+}
+
+.img_box section {
+  display: block;
+  height: 100px;
+  width: 55px;
+}
+.img_box section a {
+  font-size: 10px;
+  width: 50px;
+  text-decoration-line: none;
+  color: black;
+}
+#new {
+  font-size: 30px;
+  color: lightgray;
+}
+#cool {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.buymore {
+  margin-bottom: 25px;
+}
+
+.buy {
+  border: 1px solid #0077ed;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #0077ed;
+  text-decoration-line: none;
+}
+
+.more {
+  font-size: 20px;
+  text-decoration-line: none;
+  color: #0077ed;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.more:hover {
+  text-decoration-line: underline;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  font-size: 23px;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  text-decoration-line: none;
+}

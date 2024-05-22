@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        text-align: center;
+        height: 300px;
+        user-select: none;
+      }
+
+      #main.waiting {
+        background-color: blanchedalmond;
+      }
+      #main.ready {
+        background-color: lightblue;
+      }
+
+      #main.now {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main" class="waiting">클릭하여 시작하세요.</div>
+    <div id="result"></div>
+    <script>
+      const main = document.querySelector("#main");
+      let timeout;
+      let starttime;
+      let endTime;
+      const records = [];
+
+      main.addEventListener("click", function () {
+        if (main.classList.contains("waiting")) {
+          main.classList.remove("waiting");
+          main.classList.add("ready");
+          main.textContent = "빨간색이 되면 누르세요!";
+          timeout = setTimeout(function () {
+            starttime = new Date();
+            main.classList.remove("ready");
+            main.classList.add("now");
+            main.textContent = "";
+          }, Math.floor(Math.random() * 7000) + 2000);
+        } else if (main.classList.contains("ready")) {
+          clearTimeout(timeout);
+          main.classList.remove("ready");
+          main.classList.add("waiting");
+          main.textContent = "너무 빨라요";
+        } else if (main.classList.contains("now")) {
+          endTime = new Date();
+          const current = endTime - starttime;
+          records.push(current);
+          const average = records.reduce((a, c) => a + c) / records.length;
+          result.textContent =
+            "이번 성적: " + current + "ms, 평균: " + average + "ms";
+          starttime = null;
+          endTime = null;
+          main.classList.remove("now");
+          main.classList.add("waiting");
+          main.textContent = "눌러서 다시 시작하세요!";
+        }
+      });
+    </script>
+  </body>
+</html>
