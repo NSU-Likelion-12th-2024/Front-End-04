@@ -1,0 +1,61 @@
+body {
+}
+#id {
+  width: 350px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#two-id {
+  border: none;
+  width: 350px;
+  height: 50px;
+}
+
+/* 여기부터 */
+#form-pass {
+  width: 350px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.eyeIcon {
+  position: absolute;
+  right: 15px;
+}
+
+#form-pass-input {
+  border: none;
+  width: 350px;
+  height: 50px;
+}
+
+#form-pass-input:focus {
+  outline: none;
+}
+
+.form-alert {
+  border: 2px solid red !important;
+}
+
+/* 여기까지 배운내용 */
+
+#select-email {
+  width: 350px;
+  height: 50px;
+  border: 2px solid lightgrey;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#email-adress {
+  border: none;
+  width: 350px;
+  height: 50px;
+}
